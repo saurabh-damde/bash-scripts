@@ -1,0 +1,17 @@
+# PrettyFi
+set colored-stats on
+set colored-completion-prefix on
+
+# Completion Settings
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+# Command History
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
+# Key-Bindings
+"\C-h":"cd ~\n"
+"\C-b":"cd ..\n"
+"\C-l":"clear\n"
+"\C-x":"exit\n"
